@@ -1,0 +1,2 @@
+# librerias
+Funciones varias

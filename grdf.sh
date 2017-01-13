@@ -1,4 +1,5 @@
 #!/bin/bash
+# Obtiene un fichero .dot con la estructura de los FS montados en el sistema.
 df | sed -e "1d"|awk '{print $6}' |sort > temporal_1.borrar
 for i in $(cat temporal_1.borrar )
 	do
